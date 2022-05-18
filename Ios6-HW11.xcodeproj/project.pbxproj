@@ -56,15 +56,47 @@
 		79EE03BF2835805500AB13CC /* Ios6-HW11 */ = {
 			isa = PBXGroup;
 			children = (
-				79EE03C02835805500AB13CC /* AppDelegate.swift */,
-				79EE03C22835805500AB13CC /* SceneDelegate.swift */,
-				79EE03C42835805500AB13CC /* ViewController.swift */,
-				79EE03C62835805500AB13CC /* Main.storyboard */,
+				79EE03D72835821900AB13CC /* Tabbar */,
+				79EE03D62835820300AB13CC /* Bio */,
+				79EE03D5283581AB00AB13CC /* Main */,
+				79EE03D42835818F00AB13CC /* Application */,
 				79EE03C92835805600AB13CC /* Assets.xcassets */,
 				79EE03CB2835805600AB13CC /* LaunchScreen.storyboard */,
 				79EE03CE2835805600AB13CC /* Info.plist */,
 			);
 			path = "Ios6-HW11";
+			sourceTree = "<group>";
+		};
+		79EE03D42835818F00AB13CC /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				79EE03C22835805500AB13CC /* SceneDelegate.swift */,
+				79EE03C02835805500AB13CC /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		79EE03D5283581AB00AB13CC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				79EE03C42835805500AB13CC /* ViewController.swift */,
+				79EE03C62835805500AB13CC /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		79EE03D62835820300AB13CC /* Bio */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bio;
+			sourceTree = "<group>";
+		};
+		79EE03D72835821900AB13CC /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tabbar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
